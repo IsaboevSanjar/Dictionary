@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/en_filter"
+        android:title="Filter English words"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/uz_filter"
+        android:title="Filter Uzbek words" />
+</menu>

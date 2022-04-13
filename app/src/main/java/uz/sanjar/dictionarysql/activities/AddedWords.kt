@@ -13,7 +13,6 @@ import uz.sanjar.dictionarysql.core.database.Database
 import uz.sanjar.dictionarysql.core.dialogs.InsertDialog
 import uz.sanjar.dictionarysql.core.model.Words
 import uz.sanjar.dictionarysql.databinding.ActivityAddedWordsBinding
-import java.util.*
 
 class AddedWords : AppCompatActivity() {
 

@@ -66,6 +66,13 @@ class DictionaryAdapter : RecyclerView.Adapter<DictionaryAdapter.ViewHolder>() {
                 itemClickListener?.invoke(words)
                 // har bitta bosilgan vaqtda chiqadi va keyin kirib ketadi
                 binding.expandableLayout.toggle()
+
+/*
+                binding.itemEng.ellipsize=TextUtils.TruncateAt.MARQUEE
+                binding.itemEng.isSelected=true
+
+                binding.itemUz.ellipsize=TextUtils.TruncateAt.MARQUEE
+                binding.itemUz.isSelected=true*/
             })
             // TODO: 3/14/2022 Delete uchun ohirida ishklatish kerak
             binding.addFavouriteItem.setOnCheckedChangeListener { compoundButton, b ->

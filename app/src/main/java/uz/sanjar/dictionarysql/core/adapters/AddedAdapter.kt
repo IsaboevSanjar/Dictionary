@@ -37,6 +37,9 @@ class AddedAdapter : RecyclerView.Adapter<AddedAdapter.ViewHolder>() {
             } else {
                 binding.expandableLayout.collapse(false)
             }
+            /*binding.itemEng.ellipsize=TextUtils.TruncateAt.MARQUEE
+            binding.itemUz.ellipsize=TextUtils.TruncateAt.MARQUEE
+            binding.itemUz.isSelected=true*/
             binding.itemEng.text = " ${words.eng}"
             binding.itemUz.text = " ${words.uz}"
 

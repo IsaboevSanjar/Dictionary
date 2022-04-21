@@ -18,7 +18,7 @@
         <!-- Your secondary layout here -->
         <LinearLayout
             android:layout_width="120dp"
-            android:layout_height="50dp"
+            android:layout_height="42dp"
             android:weightSum="2">
 
             <ImageButton
@@ -73,29 +73,34 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="start"
+                        android:gravity="start"
+                        android:paddingTop="7dp"
+                        android:paddingBottom="9dp"
                         android:layout_weight="0.8"
-                        android:padding="7dp"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
 
                     <TextView
+                        android:id="@+id/flag_text"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.4"
+                        android:layout_weight="0.3"
                         android:background="#C35AB6FF"
                         android:gravity="center"
                         android:text="🇬🇧 🇺🇿"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/item_uz"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_gravity="start"
+                        android:layout_gravity="end"
                         android:layout_weight="0.8"
-                        android:padding="7dp"
+                        android:gravity="end"
+                        android:paddingTop="7dp"
+                        android:paddingBottom="9dp"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 
